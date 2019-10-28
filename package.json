@@ -1,0 +1,28 @@
+{
+  "name": "preact-starter-kit",
+  "version": "0.1.0",
+  "description": "The bare minimum you need to start a project with Preact and Webpack 4.",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server --progress --hot --inline"
+  },
+  "author": "Alqama Bin Sadiq. <alqamabinsadiq@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/plugin-transform-runtime": "^7.6.2",
+    "@babel/preset-env": "^7.6.3",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "css-loader": "^3.2.0",
+    "node-sass": "^4.13.0",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "dependencies": {
+    "preact": "^10.0.2"
+  }
+}
