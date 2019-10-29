@@ -1,0 +1,11 @@
+{
+  "extends": ["standard", "standard-preact"],
+  "rules": {
+    "semi": "off",
+    "jsx-quotes": "off",
+    "quotes": "off",
+    "no-async-promise-executor": "off",
+    "no-misleading-character-class": "off",
+    "no-useless-catch": "off"
+  }
+}
